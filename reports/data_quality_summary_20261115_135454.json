@@ -1,0 +1,18 @@
+{
+    "project": "Urban Pulse",
+    "generated_at_utc": "2026-11-15T13:54:55.781724+00:00",
+    "total_records": 100000,
+    "total_columns": 44,
+    "unique_request_ids": 100000,
+    "duplicate_request_id_excess": 0,
+    "missing_request_ids": 0,
+    "closed_requests": 98429,
+    "open_requests": 1571,
+    "invalid_creation_dates": 0,
+    "invalid_closure_dates": 0,
+    "closed_before_created": 215,
+    "invalid_coordinates": 0,
+    "valid_resolution_durations": 98214,
+    "columns_with_missing_values": 18,
+    "quality_report_file": "data_quality_report_20261115_135454.csv"
+}

@@ -1,0 +1,30 @@
+{
+    "project": "Urban Pulse",
+    "generated_at_utc": "2026-11-15T13:58:01.845411+00:00",
+    "input_file": "urban_pulse_nyc311_cleaned_20261115_135454.csv",
+    "records_analyzed": 100000,
+    "unique_request_ids": 100000,
+    "duplicate_request_id_excess": 0,
+    "earliest_created_date": "2020-01-01T00:00:00",
+    "latest_created_date": "2026-11-14T01:49:21",
+    "months_covered_in_sample": 83,
+    "recorded_closed_requests": 98429,
+    "recorded_open_requests": 1571,
+    "valid_resolution_durations": 98214,
+    "resolution_outliers": {
+        "valid_duration_count": 98214,
+        "q1_hours": 0.6819444444444445,
+        "median_hours": 3.2151388888888888,
+        "q3_hours": 54.74444444444445,
+        "iqr_hours": 54.0625,
+        "lower_fence_hours": -80.41180555555556,
+        "upper_fence_hours": 135.83819444444444,
+        "outlier_count": 15986,
+        "outlier_percentage": 16.27670189586006,
+        "outliers_below_lower_fence": 0,
+        "outliers_above_upper_fence": 15986,
+        "note": "IQR flags are investigation prompts; outliers are not deleted."
+    },
+    "monthly_source_count_file": "nyc311_monthly_source_counts_20261115_133215.csv",
+    "interpretation_note": "The cleaned 100,000 records are a sample. Use monthly source_count from the extraction report for full-source monthly volume; use sample records for sample-based comparisons. IQR outliers are flagged, not removed."
+}

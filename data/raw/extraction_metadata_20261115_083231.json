@@ -1,0 +1,622 @@
+{
+    "project": "Urban Pulse",
+    "dataset_id": "erm2-nwe9",
+    "extraction_date_utc": "2026-11-15T08:37:54.004095+00:00",
+    "start_date": "2020-01-01T00:00:00",
+    "target_records": 100000,
+    "actual_records": 89264,
+    "columns": [
+        "unique_key",
+        "created_date",
+        "closed_date",
+        "due_date",
+        "agency",
+        "agency_name",
+        "complaint_type",
+        "descriptor",
+        "location_type",
+        "incident_zip",
+        "incident_address",
+        "street_name",
+        "city",
+        "status",
+        "borough",
+        "community_board",
+        "council_district",
+        "police_precinct",
+        "open_data_channel_type",
+        "resolution_description",
+        "resolution_action_updated_date",
+        "latitude",
+        "longitude",
+        "park_facility_name",
+        "park_borough"
+    ],
+    "sampling_method": "Proportional monthly allocation with systematically distributed pages",
+    "page_size": 250,
+    "raw_file": "urban_pulse_nyc311_raw_20261115_083231.csv",
+    "monthly_counts_file": "nyc311_monthly_source_counts_20261115_083231.csv",
+    "monthly_results": [
+        {
+            "month": "2020-01",
+            "source_count": 195231,
+            "sample_target": 843,
+            "records_extracted": 731,
+            "pages_selected": 3
+        },
+        {
+            "month": "2020-02",
+            "source_count": 173162,
+            "sample_target": 748,
+            "records_extracted": 662,
+            "pages_selected": 3
+        },
+        {
+            "month": "2020-03",
+            "source_count": 179779,
+            "sample_target": 777,
+            "records_extracted": 529,
+            "pages_selected": 3
+        },
+        {
+            "month": "2020-04",
+            "source_count": 159114,
+            "sample_target": 687,
+            "records_extracted": 614,
+            "pages_selected": 3
+        },
+        {
+            "month": "2020-05",
+            "source_count": 234308,
+            "sample_target": 1012,
+            "records_extracted": 808,
+            "pages_selected": 4
+        },
+        {
+            "month": "2020-06",
+            "source_count": 313305,
+            "sample_target": 1353,
+            "records_extracted": 1055,
+            "pages_selected": 5
+        },
+        {
+            "month": "2020-07",
+            "source_count": 316553,
+            "sample_target": 1367,
+            "records_extracted": 1053,
+            "pages_selected": 5
+        },
+        {
+            "month": "2020-08",
+            "source_count": 348463,
+            "sample_target": 1505,
+            "records_extracted": 1463,
+            "pages_selected": 6
+        },
+        {
+            "month": "2020-09",
+            "source_count": 287851,
+            "sample_target": 1243,
+            "records_extracted": 1101,
+            "pages_selected": 5
+        },
+        {
+            "month": "2020-10",
+            "source_count": 269520,
+            "sample_target": 1164,
+            "records_extracted": 1020,
+            "pages_selected": 5
+        },
+        {
+            "month": "2020-11",
+            "source_count": 233596,
+            "sample_target": 1009,
+            "records_extracted": 846,
+            "pages_selected": 4
+        },
+        {
+            "month": "2020-12",
+            "source_count": 231142,
+            "sample_target": 998,
+            "records_extracted": 892,
+            "pages_selected": 4
+        },
+        {
+            "month": "2021-01",
+            "source_count": 228039,
+            "sample_target": 985,
+            "records_extracted": 789,
+            "pages_selected": 4
+        },
+        {
+            "month": "2021-02",
+            "source_count": 195978,
+            "sample_target": 847,
+            "records_extracted": 728,
+            "pages_selected": 3
+        },
+        {
+            "month": "2021-03",
+            "source_count": 249960,
+            "sample_target": 1080,
+            "records_extracted": 960,
+            "pages_selected": 4
+        },
+        {
+            "month": "2021-04",
+            "source_count": 241648,
+            "sample_target": 1044,
+            "records_extracted": 898,
+            "pages_selected": 4
+        },
+        {
+            "month": "2021-05",
+            "source_count": 274411,
+            "sample_target": 1185,
+            "records_extracted": 1161,
+            "pages_selected": 5
+        },
+        {
+            "month": "2021-06",
+            "source_count": 301378,
+            "sample_target": 1302,
+            "records_extracted": 1128,
+            "pages_selected": 5
+        },
+        {
+            "month": "2021-07",
+            "source_count": 303152,
+            "sample_target": 1309,
+            "records_extracted": 1152,
+            "pages_selected": 5
+        },
+        {
+            "month": "2021-08",
+            "source_count": 282244,
+            "sample_target": 1219,
+            "records_extracted": 1244,
+            "pages_selected": 5
+        },
+        {
+            "month": "2021-09",
+            "source_count": 317507,
+            "sample_target": 1371,
+            "records_extracted": 1007,
+            "pages_selected": 5
+        },
+        {
+            "month": "2021-10",
+            "source_count": 308312,
+            "sample_target": 1332,
+            "records_extracted": 1062,
+            "pages_selected": 5
+        },
+        {
+            "month": "2021-11",
+            "source_count": 269689,
+            "sample_target": 1165,
+            "records_extracted": 1189,
+            "pages_selected": 5
+        },
+        {
+            "month": "2021-12",
+            "source_count": 248564,
+            "sample_target": 1074,
+            "records_extracted": 814,
+            "pages_selected": 4
+        },
+        {
+            "month": "2022-01",
+            "source_count": 279281,
+            "sample_target": 1206,
+            "records_extracted": 1031,
+            "pages_selected": 5
+        },
+        {
+            "month": "2022-02",
+            "source_count": 244234,
+            "sample_target": 1055,
+            "records_extracted": 984,
+            "pages_selected": 4
+        },
+        {
+            "month": "2022-03",
+            "source_count": 251933,
+            "sample_target": 1088,
+            "records_extracted": 933,
+            "pages_selected": 4
+        },
+        {
+            "month": "2022-04",
+            "source_count": 236083,
+            "sample_target": 1020,
+            "records_extracted": 833,
+            "pages_selected": 4
+        },
+        {
+            "month": "2022-05",
+            "source_count": 276664,
+            "sample_target": 1195,
+            "records_extracted": 1164,
+            "pages_selected": 5
+        },
+        {
+            "month": "2022-06",
+            "source_count": 271730,
+            "sample_target": 1174,
+            "records_extracted": 1230,
+            "pages_selected": 5
+        },
+        {
+            "month": "2022-07",
+            "source_count": 294474,
+            "sample_target": 1272,
+            "records_extracted": 1224,
+            "pages_selected": 5
+        },
+        {
+            "month": "2022-08",
+            "source_count": 269234,
+            "sample_target": 1163,
+            "records_extracted": 1234,
+            "pages_selected": 5
+        },
+        {
+            "month": "2022-09",
+            "source_count": 272054,
+            "sample_target": 1175,
+            "records_extracted": 1054,
+            "pages_selected": 5
+        },
+        {
+            "month": "2022-10",
+            "source_count": 267072,
+            "sample_target": 1154,
+            "records_extracted": 1072,
+            "pages_selected": 5
+        },
+        {
+            "month": "2022-11",
+            "source_count": 246539,
+            "sample_target": 1065,
+            "records_extracted": 789,
+            "pages_selected": 4
+        },
+        {
+            "month": "2022-12",
+            "source_count": 260662,
+            "sample_target": 1126,
+            "records_extracted": 1162,
+            "pages_selected": 5
+        },
+        {
+            "month": "2023-01",
+            "source_count": 242173,
+            "sample_target": 1046,
+            "records_extracted": 923,
+            "pages_selected": 4
+        },
+        {
+            "month": "2023-02",
+            "source_count": 225002,
+            "sample_target": 972,
+            "records_extracted": 752,
+            "pages_selected": 4
+        },
+        {
+            "month": "2023-03",
+            "source_count": 251716,
+            "sample_target": 1087,
+            "records_extracted": 966,
+            "pages_selected": 4
+        },
+        {
+            "month": "2023-04",
+            "source_count": 247496,
+            "sample_target": 1069,
+            "records_extracted": 996,
+            "pages_selected": 4
+        },
+        {
+            "month": "2023-05",
+            "source_count": 280932,
+            "sample_target": 1213,
+            "records_extracted": 1182,
+            "pages_selected": 5
+        },
+        {
+            "month": "2023-06",
+            "source_count": 267168,
+            "sample_target": 1154,
+            "records_extracted": 1168,
+            "pages_selected": 5
+        },
+        {
+            "month": "2023-07",
+            "source_count": 289330,
+            "sample_target": 1250,
+            "records_extracted": 1080,
+            "pages_selected": 5
+        },
+        {
+            "month": "2023-08",
+            "source_count": 282757,
+            "sample_target": 1221,
+            "records_extracted": 1007,
+            "pages_selected": 5
+        },
+        {
+            "month": "2023-09",
+            "source_count": 283517,
+            "sample_target": 1225,
+            "records_extracted": 1017,
+            "pages_selected": 5
+        },
+        {
+            "month": "2023-10",
+            "source_count": 302769,
+            "sample_target": 1308,
+            "records_extracted": 1019,
+            "pages_selected": 5
+        },
+        {
+            "month": "2023-11",
+            "source_count": 280046,
+            "sample_target": 1210,
+            "records_extracted": 1046,
+            "pages_selected": 5
+        },
+        {
+            "month": "2023-12",
+            "source_count": 271817,
+            "sample_target": 1174,
+            "records_extracted": 1067,
+            "pages_selected": 5
+        },
+        {
+            "month": "2024-01",
+            "source_count": 287186,
+            "sample_target": 1240,
+            "records_extracted": 1186,
+            "pages_selected": 5
+        },
+        {
+            "month": "2024-02",
+            "source_count": 240436,
+            "sample_target": 1039,
+            "records_extracted": 936,
+            "pages_selected": 4
+        },
+        {
+            "month": "2024-03",
+            "source_count": 266604,
+            "sample_target": 1152,
+            "records_extracted": 1104,
+            "pages_selected": 5
+        },
+        {
+            "month": "2024-04",
+            "source_count": 267565,
+            "sample_target": 1156,
+            "records_extracted": 1065,
+            "pages_selected": 5
+        },
+        {
+            "month": "2024-05",
+            "source_count": 283982,
+            "sample_target": 1227,
+            "records_extracted": 1232,
+            "pages_selected": 5
+        },
+        {
+            "month": "2024-06",
+            "source_count": 306200,
+            "sample_target": 1323,
+            "records_extracted": 1200,
+            "pages_selected": 5
+        },
+        {
+            "month": "2024-07",
+            "source_count": 298936,
+            "sample_target": 1291,
+            "records_extracted": 1186,
+            "pages_selected": 5
+        },
+        {
+            "month": "2024-08",
+            "source_count": 284823,
+            "sample_target": 1230,
+            "records_extracted": 1073,
+            "pages_selected": 5
+        },
+        {
+            "month": "2024-09",
+            "source_count": 306770,
+            "sample_target": 1325,
+            "records_extracted": 1020,
+            "pages_selected": 5
+        },
+        {
+            "month": "2024-10",
+            "source_count": 306803,
+            "sample_target": 1325,
+            "records_extracted": 1053,
+            "pages_selected": 5
+        },
+        {
+            "month": "2024-11",
+            "source_count": 293516,
+            "sample_target": 1268,
+            "records_extracted": 1016,
+            "pages_selected": 5
+        },
+        {
+            "month": "2024-12",
+            "source_count": 313949,
+            "sample_target": 1356,
+            "records_extracted": 1199,
+            "pages_selected": 5
+        },
+        {
+            "month": "2025-01",
+            "source_count": 348180,
+            "sample_target": 1504,
+            "records_extracted": 1430,
+            "pages_selected": 6
+        },
+        {
+            "month": "2025-02",
+            "source_count": 255364,
+            "sample_target": 1103,
+            "records_extracted": 864,
+            "pages_selected": 4
+        },
+        {
+            "month": "2025-03",
+            "source_count": 281221,
+            "sample_target": 1215,
+            "records_extracted": 1221,
+            "pages_selected": 5
+        },
+        {
+            "month": "2025-04",
+            "source_count": 272549,
+            "sample_target": 1177,
+            "records_extracted": 1049,
+            "pages_selected": 5
+        },
+        {
+            "month": "2025-05",
+            "source_count": 295060,
+            "sample_target": 1275,
+            "records_extracted": 1060,
+            "pages_selected": 5
+        },
+        {
+            "month": "2025-06",
+            "source_count": 306442,
+            "sample_target": 1324,
+            "records_extracted": 1192,
+            "pages_selected": 5
+        },
+        {
+            "month": "2025-07",
+            "source_count": 315883,
+            "sample_target": 1364,
+            "records_extracted": 1133,
+            "pages_selected": 5
+        },
+        {
+            "month": "2025-08",
+            "source_count": 304039,
+            "sample_target": 1313,
+            "records_extracted": 1039,
+            "pages_selected": 5
+        },
+        {
+            "month": "2025-09",
+            "source_count": 302684,
+            "sample_target": 1307,
+            "records_extracted": 1184,
+            "pages_selected": 5
+        },
+        {
+            "month": "2025-10",
+            "source_count": 336612,
+            "sample_target": 1454,
+            "records_extracted": 1362,
+            "pages_selected": 6
+        },
+        {
+            "month": "2025-11",
+            "source_count": 304905,
+            "sample_target": 1317,
+            "records_extracted": 1155,
+            "pages_selected": 5
+        },
+        {
+            "month": "2025-12",
+            "source_count": 332103,
+            "sample_target": 1435,
+            "records_extracted": 1353,
+            "pages_selected": 6
+        },
+        {
+            "month": "2026-01",
+            "source_count": 348511,
+            "sample_target": 1505,
+            "records_extracted": 1261,
+            "pages_selected": 6
+        },
+        {
+            "month": "2026-02",
+            "source_count": 334691,
+            "sample_target": 1446,
+            "records_extracted": 1441,
+            "pages_selected": 6
+        },
+        {
+            "month": "2026-03",
+            "source_count": 342390,
+            "sample_target": 1479,
+            "records_extracted": 1390,
+            "pages_selected": 6
+        },
+        {
+            "month": "2026-04",
+            "source_count": 302190,
+            "sample_target": 1305,
+            "records_extracted": 1190,
+            "pages_selected": 5
+        },
+        {
+            "month": "2026-05",
+            "source_count": 331980,
+            "sample_target": 1434,
+            "records_extracted": 1480,
+            "pages_selected": 6
+        },
+        {
+            "month": "2026-06",
+            "source_count": 334834,
+            "sample_target": 1446,
+            "records_extracted": 1334,
+            "pages_selected": 6
+        },
+        {
+            "month": "2026-07",
+            "source_count": 343135,
+            "sample_target": 1482,
+            "records_extracted": 1385,
+            "pages_selected": 6
+        },
+        {
+            "month": "2026-08",
+            "source_count": 328930,
+            "sample_target": 1421,
+            "records_extracted": 1430,
+            "pages_selected": 6
+        },
+        {
+            "month": "2026-09",
+            "source_count": 323635,
+            "sample_target": 1398,
+            "records_extracted": 1385,
+            "pages_selected": 6
+        },
+        {
+            "month": "2026-10",
+            "source_count": 347650,
+            "sample_target": 1502,
+            "records_extracted": 1400,
+            "pages_selected": 6
+        },
+        {
+            "month": "2026-11",
+            "source_count": 143667,
+            "sample_target": 621,
+            "records_extracted": 417,
+            "pages_selected": 2
+        }
+    ]
+}
